@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Funcionários";
+}
+
+<div class="text-center">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button">Adicionar Funcionário</a>
+    </div>
+
+    <h1 class="display-4">Listagem de Funcionários</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Cargo</th>
+                <th>Departamento</th>
+                <th>Salário</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Guilherme Henrique</td>
+                <td>123.456.789-00</td>
+                <td>Gerente</td>
+                <td>Administração</td>
+                <td>R$ 1.500,00</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-primary" role="button">Editar</a>
+                        <a class="btn btn-danger" role="button">Excluir</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
