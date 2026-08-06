@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetocadastromvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetofuncionarios3ds_ta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetocadastromvc\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetofuncionarios3ds_ta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetocadastromvc\\views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|solutionrelative:views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetofuncionarios3ds_ta\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetocadastromvc\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|solutionrelative:models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetofuncionarios3ds_ta\\views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|solutionrelative:views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetocadastromvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D649C604-49AE-4DE7-AEC7-C914F9D69B72}|ProjetoCadastroMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetofuncionarios3ds_ta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetofuncionarios3ds_ta\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetofuncionarios3ds_ta\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|c:\\users\\professor\\desktop\\projetofuncionarios3ds_ta\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C2857B3-8DAD-E768-8938-870BA1604B8C}|ProjetoCadastroMVC.csproj|solutionrelative:models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,23 +47,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T17:15:31.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-06T17:11:59.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Data\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Data\\DatabaseContext.cs",
+              "RelativeToolTip": "Data\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T16:49:22.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAB3AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-30T17:17:20.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FuncionarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Controllers\\FuncionarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
-              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Controllers\\FuncionarioController.cs",
+              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Controllers\\FuncionarioController.cs",
               "RelativeToolTip": "Controllers\\FuncionarioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,11 +111,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Funcionario.cs",
-              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Models\\Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Models\\Funcionario.cs",
               "RelativeDocumentMoniker": "Models\\Funcionario.cs",
-              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Models\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Models\\Funcionario.cs",
               "RelativeToolTip": "Models\\Funcionario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,26 +124,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Views\\Funcionario\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Views\\Funcionario\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Funcionario\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Views\\Funcionario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Views\\Funcionario\\Index.cshtml",
               "RelativeToolTip": "Views\\Funcionario\\Index.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-30T16:27:33.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoCadastroMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Professor\\Desktop\\ProjetoFuncionarios3DS_TA\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-30T16:21:27.065Z",
               "EditorCaption": ""

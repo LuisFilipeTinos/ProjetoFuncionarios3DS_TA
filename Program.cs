@@ -1,7 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using ProjetoCadastroMVC.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = 
+    builder.Configuration.GetConnectionString("Database");
+
+builder.Services.AddDbContext<DatabaseContext>(options =>
+    options.UseMySql(
+        connectionString, 
+        ServerVersion.AutoDetect(connectionString))
+);
 
 var app = builder.Build();
 
