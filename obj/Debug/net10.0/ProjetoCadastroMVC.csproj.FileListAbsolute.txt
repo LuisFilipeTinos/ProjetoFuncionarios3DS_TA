@@ -285,3 +285,4 @@ C:\Users\Professor\Desktop\ProjetoFuncionarios3DS_TA\obj\Debug\net10.0\refint\Pr
 C:\Users\Professor\Desktop\ProjetoFuncionarios3DS_TA\obj\Debug\net10.0\ProjetoCadastroMVC.pdb
 C:\Users\Professor\Desktop\ProjetoFuncionarios3DS_TA\obj\Debug\net10.0\ProjetoCadastroMVC.genruntimeconfig.cache
 C:\Users\Professor\Desktop\ProjetoFuncionarios3DS_TA\obj\Debug\net10.0\ref\ProjetoCadastroMVC.dll
+C:\Users\Professor\Desktop\ProjetoFuncionarios3DS_TA\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

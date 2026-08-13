@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetoCadastroMVC.Data;
+using ProjetoCadastroMVC.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,8 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
         connectionString, 
         ServerVersion.AutoDetect(connectionString))
 );
+
+builder.Services.AddScoped<IFuncionarioRepository, FuncionarioRepository>();
 
 var app = builder.Build();
 
