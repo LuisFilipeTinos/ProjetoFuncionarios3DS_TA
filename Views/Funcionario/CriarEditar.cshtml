@@ -1,0 +1,77 @@
+﻿@model Funcionario
+@{
+    ViewData["Title"] = 
+            ViewBag.TipoTela == "Criar"
+            ? "Cadastrar Funcionário"
+            : "Editar Funcionário";
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        @(
+            ViewBag.TipoTela == "Criar" 
+            ? "Cadastrar Funcionário" 
+            : "Editar Funcionário"
+        )
+    </h1>
+</div>
+
+<form asp-controller="Funcionario" 
+      asp-action="@(
+                       ViewBag.TipoTela == "Criar" 
+                       ? "Criar"
+                       : "Editar"
+                    )"
+      method="POST"
+>
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control"
+            placeholder="Digite o nome do funcionário"
+        />
+    </div>
+
+    <div class="mb-3">
+        <label for="cpf" class="form-label">CPF</label>
+        <input type="text" asp-for="CPF" id="cpf" class="form-control"
+               placeholder="Digite o CPF do funcionário" />
+    </div>
+
+    <div class="mb-3">
+        <label for="cargo" class="form-label">Cargo</label>
+        <input type="text" asp-for="Cargo" class="form-control"
+               placeholder="Digite o cargo do funcionário" />
+    </div>
+
+    <div class="mb-3">
+        <label for="departamento" class="form-label">Departamento</label>
+        <input type="text" asp-for="Departamento" class="form-control"
+               placeholder="Digite o departamento do funcionário" />
+    </div>
+
+    <div class="mb-3">
+        <label for="salario" class="form-label">Salário</label>
+        <input type="number" asp-for="Salario" class="form-control"
+               placeholder="Digite o salário do funcionário" />
+    </div>
+
+    <button
+        type="submit" class="btn btn-primary d-block w-100 mb-3"
+    >
+        @(ViewBag.TipoTela == "Criar" ? "Cadastrar" : "Editar")
+    </button>
+    <a
+        class="btn btn-secondary d-block w-100 mb-3"
+        asp-controller="Funcionario"
+        asp-action="Index"
+    >
+
+    </a>
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/7.6.1/imask.min.js"></script>
+<script>
+    IMask(document.getElementById("cpf"), {
+        mask: "000.000.000-00"
+    })
+</script>

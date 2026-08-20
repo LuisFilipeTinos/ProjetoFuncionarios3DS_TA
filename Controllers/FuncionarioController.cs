@@ -18,5 +18,17 @@ namespace ProjetoCadastroMVC.Controllers
             List<Funcionario> listaFuncionarios = funcRep.BuscarTodos();
             return View(listaFuncionarios);
         }
+
+        public IActionResult Criar()
+        {
+            ViewBag.TipoTela = "Criar";
+            return View("~/Views/Funcionario/CriarEditar.cshtml");
+        }
+
+        public IActionResult Editar()
+        {
+            ViewBag.TipoTela = "Editar";
+            return View("~/Views/Funcionario/CriarEditar.cshtml");
+        }
     }
 }
