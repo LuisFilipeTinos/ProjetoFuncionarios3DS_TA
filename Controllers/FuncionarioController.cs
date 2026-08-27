@@ -30,5 +30,12 @@ namespace ProjetoCadastroMVC.Controllers
             ViewBag.TipoTela = "Editar";
             return View("~/Views/Funcionario/CriarEditar.cshtml");
         }
+
+        [HttpPost]
+        public IActionResult Criar(Funcionario funcionario)
+        {
+            funcRep.Adicionar(funcionario);
+            return RedirectToAction("Index");
+        }
     }
 }
