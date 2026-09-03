@@ -6,5 +6,8 @@ namespace ProjetoCadastroMVC.Repository
     {
         List<Funcionario> BuscarTodos();
         Funcionario Adicionar(Funcionario funcionario);
+        Funcionario BuscarPorId(int id);
+
+        Funcionario Atualizar(Funcionario funcionario);
     }
 }

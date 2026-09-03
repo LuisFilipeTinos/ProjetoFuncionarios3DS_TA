@@ -25,10 +25,11 @@ namespace ProjetoCadastroMVC.Controllers
             return View("~/Views/Funcionario/CriarEditar.cshtml");
         }
 
-        public IActionResult Editar()
+        public IActionResult Editar(int id)
         {
+            Funcionario funcionario = funcRep.BuscarPorId(id);
             ViewBag.TipoTela = "Editar";
-            return View("~/Views/Funcionario/CriarEditar.cshtml");
+            return View("~/Views/Funcionario/CriarEditar.cshtml", funcionario);
         }
 
         [HttpPost]
@@ -37,5 +38,13 @@ namespace ProjetoCadastroMVC.Controllers
             funcRep.Adicionar(funcionario);
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        public IActionResult Editar(Funcionario funcionario)
+        {
+            funcRep.Atualizar(funcionario);
+            return RedirectToAction("Index");
+        }
+
     }
 }
