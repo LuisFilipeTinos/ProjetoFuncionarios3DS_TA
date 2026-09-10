@@ -27,7 +27,7 @@ namespace ProjetoCadastroMVC.Controllers
 
         public IActionResult Editar(int id)
         {
-            Funcionario funcionario = funcRep.BuscarPorId(id);
+            Funcionario? funcionario = funcRep.BuscarPorId(id);
             ViewBag.TipoTela = "Editar";
             return View("~/Views/Funcionario/CriarEditar.cshtml", funcionario);
         }
@@ -38,6 +38,16 @@ namespace ProjetoCadastroMVC.Controllers
             funcRep.Adicionar(funcionario);
             return RedirectToAction("Index");
         }
+
+        /*
+         * GET pra exibir, POST pra qualquer mudança de estado.
+         * <form> HTML não sabe mandar outros métodos HTTP.
+         * 
+         * Listar / Exibir	GET
+           Criar	        POST
+           Editar	        POST
+           Deletar	        POST
+         */
 
         [HttpPost]
         public IActionResult Editar(Funcionario funcionario)

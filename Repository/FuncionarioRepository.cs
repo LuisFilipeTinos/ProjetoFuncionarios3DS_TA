@@ -24,14 +24,14 @@ namespace ProjetoCadastroMVC.Repository
             return funcionario;
         }
 
-        public Funcionario BuscarPorId(int id)
+        public Funcionario? BuscarPorId(int id)
         {
             return dbContext.Funcionarios.FirstOrDefault(x => x.Id == id);
         }
 
         public Funcionario Atualizar(Funcionario funcionario)
         {
-            Funcionario func = BuscarPorId(funcionario.Id);
+            Funcionario? func = BuscarPorId(funcionario.Id);
 
             if (func == null)
             {
